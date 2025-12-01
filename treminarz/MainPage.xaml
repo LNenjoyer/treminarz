@@ -1,0 +1,20 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="treminarz.MainPage">
+
+    <ScrollView>
+        <VerticalStackLayout
+            Spacing="20">
+            <Label x:Name="tyt" Text="tytuł1" HorizontalOptions="Center" FontAttributes="Bold"  FontSize="Large"/>
+            <Label x:Name="ops" Text="opisowyopis1" HorizontalOptions="Center"/>
+            <Label x:Name="dat" Text="2025-01-01" HorizontalOptions="Center"/>
+            <Label x:Name="god" Text="1:40" HorizontalOptions="Center"/>
+            <Grid ColumnDefinitions="*,30,*">
+                <Button Clicked="OnPop" Text="Poprzedni" Grid.Column="0" VerticalOptions="Start" HorizontalOptions="End"/>
+                <Button Clicked="OnNas" Text="Następny" Grid.Column="2" VerticalOptions="Start" HorizontalOptions="Start" />
+            </Grid>
+        </VerticalStackLayout>
+    </ScrollView>
+
+</ContentPage>
