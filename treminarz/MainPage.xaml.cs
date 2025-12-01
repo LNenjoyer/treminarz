@@ -11,7 +11,9 @@
         static int ile = tytul.Length;
         public MainPage()
         {
+            
             InitializeComponent();
+            zmiana();
         }
         private void zmiana()
         {

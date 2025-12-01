@@ -6,10 +6,10 @@
     <ScrollView>
         <VerticalStackLayout
             Spacing="20">
-            <Label x:Name="tyt" Text="tytuł1" HorizontalOptions="Center" FontAttributes="Bold"  FontSize="Large"/>
-            <Label x:Name="ops" Text="opisowyopis1" HorizontalOptions="Center"/>
-            <Label x:Name="dat" Text="2025-01-01" HorizontalOptions="Center" TextColor="Gray"/>
-            <Label x:Name="god" Text="1:40" HorizontalOptions="Center" TextColor="Gray"/>
+            <Label x:Name="tyt"  HorizontalOptions="Center" FontAttributes="Bold"  FontSize="Large"/>
+            <Label x:Name="ops"  HorizontalOptions="Center"/>
+            <Label x:Name="dat"  HorizontalOptions="Center" TextColor="Gray"/>
+            <Label x:Name="god"  HorizontalOptions="Center" TextColor="Gray"/>
             <Grid ColumnDefinitions="*,30,*">
                 <Button Clicked="OnPop" Text="Poprzedni" Grid.Column="0" VerticalOptions="Start" HorizontalOptions="End"/>
                 <Button Clicked="OnNas" Text="Następny" Grid.Column="2" VerticalOptions="Start" HorizontalOptions="Start" />
